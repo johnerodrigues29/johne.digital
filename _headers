@@ -3,3 +3,7 @@
   Referrer-Policy: strict-origin-when-cross-origin
   X-Frame-Options: SAMEORIGIN
   Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+# Revalidar documentos e arquivos sem versão antes de reutilizar o cache.
+/*
+  Cache-Control: public, max-age=0, must-revalidate
